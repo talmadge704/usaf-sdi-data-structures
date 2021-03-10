@@ -1,8 +1,20 @@
 var Stack = function() {
-  // Hey! Rewrite in the new style. Your code will wind up looking very similar,
-  // but try not not reference your old code in writing the new style.
-};
+  var storage = {};
+  var size = 0;
+  var someInstance = {};
+}
+var stack.Methods = {
+  push: function(){ size++; storage[size] = value},
+  pop: function(){ if (size === 0){return }; else{delete storage[size];size--; return storedValue}},
+  size: function(){return size }
+}
 
-var stackMethods = {};
+
+
+
+
+
+
+
 
 
